@@ -22,13 +22,13 @@
         <form action="" method="post" name="myform" onsubmit="return dayofbirth()">
             <div class="form-group">
                 <p><strong>Century:</strong></p>
-                <p><input type="number"  class="form-control" name="century"></p>
+                <p><input type="number" min="0" max="21"  class="form-control" name="century"></p>
                 <p><strong>Year:</strong></p>
-                <p><input type="number" class="form-control" name="year"></p>
+                <p><input type="number" min="0" max="99" class="form-control" name="year"></p>
                 <p><strong>Month:</strong> </p>
-                <p><input type="number"  class="form-control" name="month"></p>
+                <p><input type="number" min="0" max="12"  class="form-control" name="month"></p>
                 <p><strong>Date:</strong> </p>
-                <p><input type="number" class="form-control" name="date"></p>
+                <p><input type="number" min="0" max="31" class="form-control" name="date"></p>
                 <p><strong>Gender:</strong></p>
                 <p><input type="radio" name="gender" value="male"> Male
                     <input type="radio" name="gender" value="female">Female</p>
