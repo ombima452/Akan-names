@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Akan Naming</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> 
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 </head>
-     <body>
+
+<body>
     <div class="container">
         <div class="jumbotron text-center">
             <h1>The Akan Naming</h1>
@@ -18,26 +19,26 @@
             born and give you your akan name depending on the day.All you need to do is key in your data.</p>
         <p>Fill this out this form with the required details</p>
 
-        <form action=""  method="POST" name="myform">
-          <div class="form-group">
+        <form action="" method="post" name="myform" onsubmit="return dayofbirth()">
+            <div class="form-group">
                 <p><strong>Century:</strong></p>
-                <p><input type="number" min="0" max="21" class="form-control"></p>
+                <p><input type="number"  class="form-control" name="century"></p>
                 <p><strong>Year:</strong></p>
-                <p><input type="number" min="0" max="99" class="form-control"></p>
+                <p><input type="number" class="form-control" name="year"></p>
                 <p><strong>Month:</strong> </p>
-                <p><input type="number" min="0" max="12" class="form-control"></p>
+                <p><input type="number"  class="form-control" name="month"></p>
                 <p><strong>Date:</strong> </p>
-                <p><input type="number" min="0" max="31" class="form-control"></p>
+                <p><input type="number" class="form-control" name="date"></p>
                 <p><strong>Gender:</strong></p>
-                <p><input type="radio" name="gender" value="male" checked> Male
+                <p><input type="radio" name="gender" value="male"> Male
                     <input type="radio" name="gender" value="female">Female</p>
-                <button type="submit" form="form1" value="Submit" >Submit</button>
+                <!-- <button type="submit" value="Submit" class="btn-info">Submit</button> -->
 
             </div>
         </form>
     </div>
-    
 
-    </body>
+    <script src="js/scripts.js"></script>
+</body>
 
 </html>
