@@ -1,4 +1,4 @@
-<!-- # {Akan Naming}
+# {Akan Naming}
 #### {12/07/2019}
 #### By **CHRISTINE OMBIMA**
 ## Description
@@ -20,4 +20,4 @@ JS
 Twitter:@ombima452
 ### License
 *{MIT}*
-Copyright (c) {2019} **Christine Ombima** -->
+Copyright (c) {2019} **Christine Ombima**
