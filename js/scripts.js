@@ -54,7 +54,7 @@ function day (cc,yy,mm,dd){
       else if (gender == "female" && result==6){
       alert(females[6]);
       }
-    //   else{
-    //   alert("null");
-    //   }
-    // }
+      else{
+      alert("null");
+      }
+    }
