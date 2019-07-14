@@ -6,7 +6,7 @@ This web aplliaction allows user to enter there birth details then it calculates
 ## Setup/Installation Requirements
 Open Terminal {Ctrl+Alt+T}
 
-git clone 
+git clone https://github.com/ombima452/Akan-names.git
 
 code . or atom . based on the text editor you have.
 
